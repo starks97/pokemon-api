@@ -1,0 +1,11 @@
+html,
+body {
+  padding: 20px;
+  background: grey;
+}
+
+h1 {
+  font-size: 30px;
+  color: gold;
+  line-height: 5px;
+}
