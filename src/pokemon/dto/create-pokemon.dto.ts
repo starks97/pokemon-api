@@ -7,6 +7,5 @@ export class CreatePokemonDto {
   no: number;
 
   @IsString({ always: true, message: 'Please enter a string  ' })
-  @MinLength(3, { message: 'Name must have min 3 words' })
   name: string;
 }
